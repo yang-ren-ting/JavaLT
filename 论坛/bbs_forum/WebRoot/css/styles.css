@@ -1,0 +1,198 @@
+/** reset **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td, img {  margin: 0; padding: 0; }
+body, button, input, select, textarea { font: 14px/1.5 '微软雅黑', tahoma, Srial, helvetica, sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+em { font-style: normal; }
+ul, ol { list-style: none; }
+a { text-decoration: none; color: #333; }
+a { text-decoration: none; }
+/*火狐去掉按钮、连接的虚线*/
+a:focus, a:active, button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, select::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner {
+border: 0;
+outline : 0;
+}
+
+textarea { resize: none; }
+a { text-decoration: none; color: #333; }
+a:focus { outline: none; }
+a.hidefocus { outline: none }
+/*苹果手机按钮默认样式  去掉*/
+input[type="button"], input[type="submit"], input[type="reset"] { -webkit-appearance: none; border-radius: 0; }
+.button { border-radius: 0; }
+input { font-family: "微软雅黑"; }
+textarea { font-family: "微软雅黑"; }
+img { border: 0px; outline-width: 0px; }
+.cleafix:after { clear: both; content: "\200B"; display: block; height: 0; }
+.cleafix { *zoom:1;
+}
+.fl { float: left; }
+.fr { float: right; }
+/*登录*/
+.login { width: 1140px; height: 260px; margin: 0 auto; border: 1px solid #5FB9D6; }
+.login form { width: 380px; height: 80px; margin: 10px auto; }
+.login form tr { height: 50px; }
+.login form td { height: 30px; }
+.login input { width: 200px; height: 36px; border: 1px solid #111; }
+.login input.w50 { width: 100px; height: 36px; font-size: 16px; margin-right: 5px; }
+.login .btn { width: 300px; text-align: center; }
+.login .pass img { vertical-align: middle; }
+.id-body { background: #ecf8ff; }
+.header { width: 1140px; min-width: 980px; height: 40px; background-color: #D0E6ED; color: #2a3f50; font-weight: bold; font-family: "Heiti"; font-size: 12px; margin: 0 auto; border: 1px solid #5FB9D6; }
+.header ul a { color: #0F0F7B; }
+.header ul li { margin-top: 10px; float: left; height: 20px; width: 100px; line-height: 20px; text-align: center; list-style: none; }
+.header ul li:nth-of-type(2) { width: 60px; }
+.header ul li span { font-weight: bold; font-size: 16px; color: red; }
+.header ul .border { border-left: 1px solid #0F0F7B; border-right: 1px solid #0F0F7B; }
+.indexnav { color: gray; font-size: 14px; font-weight: bolder; height: 30px; line-height: 30px; width: 1140px; min-width: 980px; background-color: #D0E6ED; color: #2a3f50; font-weight: bold; font-family: "Heiti"; font-size: 12px; margin: 10px auto 0; overflow: hidden; border: 1px solid #5FB9D6; }
+.post { height: 30px; line-height: 30px; width: 1140px; min-width: 980px; margin: 10px auto 0; overflow: hidden; }
+.indexnav a { color: #276A6F; }
+/*论坛首页展示界面*/
+.cont { width: 1140px; height: auto; margin: 20px auto; font-size: 12px; }
+.table { width: 100%; height: 100%; border-collapse: collapse; }
+.table thead { border: 1px solid #5FB9D6; border-bottom: 0; }
+.table th { text-align: center; background-color: #D0E6ED; height: 40px; }
+.table th:first-child { width: 400px; }
+.table tbody .title { height: 30px; }
+.table td { border: 1px solid #5FB9D6; padding-left: 5px; height: 50px; }
+.table tbody td:nth-child(3) { text-align: center; padding-left: 0; }
+.table p { color: #4487D6; }
+.table span { color: gray; margin-left: 5px; }
+#vcode{width: 100px; height: 34px;}
+.vcode{width: 218px;height: 34px; border:1px solid #ccc;}
+/* new主体部分开始 */
+.p1 { margin: 10px 0; font-size: 14px; }
+.p1>a { color: #345396; font-weight: bold; }
+.login_table { border: 1px solid #b5c6d0; font-size: 12px; padding: 40px; }
+.login_table>p { text-align: center;/*  margin-left:35%;  */   
+}
+.login_table>p>button { background: #e9f3ff; }
+.news_left { width: 30%; height: 100%; background: #f2f8ee; padding: -20px; }
+input { border-color: #D0E6ED; }
+.indexnav ul li { float: left; color: #276A6F; margin-left: 5px; }
+/*topic.jsp */
+.t1 { width: 1140px; min-width: 980px;  border-collapse: collapse; margin: 10px auto; }
+.t1 thead tr { border: 1px solid #5FB9D6; text-align: center; }
+.t1 .blue { background-color: #D0E6ED; height: 40px; width: 100%; }
+.t1 .green { background-color: #D3E6AF; color: green; height: 30px; }
+.t1 td { border: 1px solid #5FB9D6; text-align: center; height:50px;}
+.t1 tbody tr td:nth-child(2) { width: 80%; height: 35px; }
+.h30 { height: 30px; }
+/*发标帖子*/
+.tab2 { width: 1140px; min-width: 980px; height: 300px; border-collapse: collapse; margin: 10px auto; }
+.tab2 thead tr { border: 1px solid #5FB9D6; height: 35px; background-color: #D0E6ED; }
+.tab2 td { border: 1px solid #5FB9D6; }
+.tab2 .text { height:150px; }
+.tab2 .h30 td{text-align:center;}
+.tab2 .text td:first-child{text-align:center;}
+.tab2 input{width:100%; height:30px;border:none}
+.tab2 textarea{width:100%;border:none}
+.page { width: 1140px; margin: 10px auto; }
+.page button { width: 80px; height: 30px; line-height: 30px; font-size: 16px; text-align: center; }
+.footer { color: gray; width: 500px; height: 30px; margin: 30px auto; font-weight: smaller; }
+.tijiao { width: 300px; margin: 0 auto; }
+.tijiao input.w50 { width: 100px; height: 36px; font-size: 16px; margin-right: 5px; }
+
+/*回复帖子界面*/
+.location { width: 1140px; min-width: 980px; margin: 10px auto; background-color: #D0E6ED; height: 35px; line-height: 35px; color: #276A6F; text-indent: 1em; }
+/*参看帖子*/
+.replay { width: 1140px; margin: 10px auto; border: 1px solid #D3E6AF; border-collapse: collapse; height: 100px; }
+.replay td { border: 1px solid #D3E6AF; }
+.del{
+	position:fixed;
+	left:30%;
+	top:30%;
+	width:400px;
+	height:200px;
+	border:3px solid blue;
+	background:#fff;
+	display:none;
+}
+.del div:first-child{
+	height:60px;
+	text-align:center;
+	font-size:32px;
+	line-height:60px;
+	margin-bottom:50px;
+}
+.del div:last-child{
+	width:360px;
+	margin:0 auto;
+	text-align:center;
+	height:60px;
+	
+}
+.del div button{
+	font-size:24px;
+	width:60px;
+	height:40px;
+	line-height:40px;
+	margin-right:10px;
+}
+/*注册*/
+.regist {
+	width: 1140px;
+	height: 500px;
+	margin: 0 auto;
+	border: 1px solid #5FB9D6;
+}
+
+.regist form {
+	width: 650px;
+	margin: 0 auto;
+}
+
+.regist form .tb1 {
+	width: 500px;
+	margin: 20px auto;
+}
+
+.regist form .tb1 td {
+	height: 30px;
+	width: 40px;
+}
+.regist form .tb1 td input{
+	border:1px solid #666;
+}
+.regist form .tb2 {
+	width: 500px;
+	margin: 0px auto;
+}
+
+.regist .sex {
+	width: 200px;
+	text-align: center;
+}
+
+.state1{
+                color:#aaa;
+}
+ .state2{
+                color:#000;
+}
+.state3{
+                color:red;
+ }
+.state4{
+                color:green;
+}
+.breadcrumb > li + li:before{
+		content: ">";
+	}
+
+/*置顶加精*/
+.ding{
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+		background-color: blue;
+		color: white;
+	}
+	.jing{
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+		background-color: red;
+		color: white;
+	}
